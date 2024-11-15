@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Livvic';
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/images/backimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head-top {
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-same {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.same-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.link1 {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all;
+}
+
+.link1:hover {
+  border-bottom: 1px solid white;
+}
+
+.link2 {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all;
+}
+
+.link2:hover {
+  border-bottom: 1px solid white;
+}
+
+.btn-head {
+  padding: 9px 32px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 24px;
+  transition: 0.4s all;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-head:hover {
+  filter: drop-shadow(2px 2px 3px aqua);
+}
+
+.head-midle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.mid-desc {
+  font-family: Livvic;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 92px;
+  color: white;
+}
+
+.mid-desc span {
+  font-family: Livvic;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 92px;
+  color: rgb(246 126 126);
+  vertical-align: middle;
+}
+
+.head-thing {
+  width: 50px;
+  height: 4px;
+  background-color: rgba(121, 200, 199, 1);
+  margin-bottom: 80px;
+}
+
+.head-title {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+}
+
+.midle {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/images/end-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+}
+
+.mid-thing {
+  width: 50px;
+  height: 4px;
+  background-color: rgba(246, 126, 126, 1);
+  margin-bottom: 54px;
+}
+
+.mid-bigdesc {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: white;
+}
+
+.mid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  gap: 100px;
+}
+
+.skil1 {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 30px;
+}
+
+.skil1 img {
+  width: 72px;
+  height: 72px;
+}
+
+.skil1-desc {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(246, 126, 126, 1);
+  margin-bottom: 16px;
+}
+
+.skil1-title {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 80%;
+}
+
+.skil2 {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 30px;
+}
+
+.skil2 img {
+  width: 72px;
+  height: 72px;
+}
+
+.skil2-desc {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(246, 126, 126, 1);
+  margin-bottom: 16px;
+}
+
+.skil2-title {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 80%;
+}
+
+.skil3 {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.skil3 img {
+  width: 72px;
+  height: 72px;
+}
+
+.skil3-desc {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(246, 126, 126, 1);
+  margin-bottom: 16px;
+}
+
+.skil3-title {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 80%;
+}
